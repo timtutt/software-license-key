@@ -1,0 +1,33 @@
+{
+  "name": "software-license-key",
+  "version": "1.0.0",
+  "description": "Library for generating and validating software license keys with data embedded in the key.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timtutt/software-license-key.git"
+  },
+  "keywords": [
+    "software",
+    "license",
+    "key",
+    "generator",
+    "validator"
+  ],
+  "author": "Tim Tutt <tim@timtutt.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timtutt/software-license-key/issues"
+  },
+  "homepage": "https://github.com/timtutt/software-license-key#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "node-rsa": "^0.4.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.1.1"
+  }
+}
