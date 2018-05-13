@@ -4,7 +4,7 @@
   "description": "Library for generating and validating software license keys with data embedded in the key.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha --timeout 10000"
   },
   "repository": {
     "type": "git",

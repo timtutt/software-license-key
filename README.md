@@ -16,7 +16,7 @@ const SoftwareLicenseKey = require('software-license-key');
 
 ## Usage
 
-### Key Generation
+### Crypto Key Generation
 
 Key generation can be done manually or by leveraging the library. You can generate your own key pairs for usage by using the following commands:
 
