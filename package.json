@@ -1,6 +1,6 @@
 {
   "name": "software-license-key",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for generating and validating software license keys with data embedded in the key.",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
     "node-rsa": "^0.4.2"
   },
   "devDependencies": {
-    "mocha": "^5.1.1"
+    "mocha": "^8.3.2"
   }
 }

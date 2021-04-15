@@ -85,7 +85,7 @@ class SoftwareLicenseKey {
   exportPrivateKey(filePath) {
 
     if (!this.key.isPrivate()) {
-      throw "The key is not a private key. Cannot export private key from public key."
+      throw new Error("The key is not a private key. Cannot export private key from public key.");
       return;
     }
     if (filePath == null) {

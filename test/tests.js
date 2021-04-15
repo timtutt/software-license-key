@@ -42,7 +42,7 @@ describe('Automatically Generated Keys', function() {
     });
 
     it ('should not be able to export a private key', function() {
-      assert.throws(()=>{validator.exportPrivateKey()}, "The key is not a private key. Cannot export private key from public key.");
+      assert.throws(()=>{validator.exportPrivateKey()}, new Error("The key is not a private key. Cannot export private key from public key."));
     });
 
     it('should be able to validate license key', function() {
