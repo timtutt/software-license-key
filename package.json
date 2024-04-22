@@ -1,10 +1,10 @@
 {
   "name": "software-license-key",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library for generating and validating software license keys with data embedded in the key.",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --timeout 10000"
+    "test": "./node_modules/mocha/bin/_mocha --timeout 10000"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/timtutt/software-license-key#readme",
   "dependencies": {
-    "crypto-js": "^3.1.9-1",
+    "crypto-js": "4.2.0",
     "node-rsa": "^0.4.2"
   },
   "devDependencies": {
-    "mocha": "^8.3.2"
+    "mocha": "^10.4.0"
   }
 }
