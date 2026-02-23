@@ -1,6 +1,6 @@
 {
   "name": "software-license-key",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Library for generating and validating software license keys with data embedded in the key.",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,9 @@
     "url": "https://github.com/timtutt/software-license-key/issues"
   },
   "homepage": "https://github.com/timtutt/software-license-key#readme",
+  "overrides": {
+    "minimatch": ">=10.2.1"
+  },
   "dependencies": {
     "crypto-js": "4.2.0",
     "node-rsa": "^0.4.2"
