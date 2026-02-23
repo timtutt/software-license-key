@@ -1,6 +1,6 @@
 {
   "name": "software-license-key",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Library for generating and validating software license keys with data embedded in the key.",
   "main": "index.js",
   "scripts": {
