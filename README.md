@@ -2,7 +2,6 @@
 
 This is a library for generating and validating software license keys with data embedded in the license key.
 
-
 ## Installation
 ```bash
 npm install software-license-key
@@ -130,3 +129,7 @@ var licenseKey = "====BEGIN LICENSE KEY====\n" +
 var decryptedLicenseKeydata = validator.validateLicense(licenseKey);
 console.log(JSON.stringify(decryptedLicenseKeydata));
 ```
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for release history and security updates.
